@@ -1,0 +1,32 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+    "name",
+    "job"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "default": "",
+      "title": "The name Schema",
+      "examples": [
+        "morpheus"
+      ]
+    },
+    "job": {
+      "type": "string",
+      "default": "",
+      "title": "The job Schema",
+      "examples": [
+        "leader"
+      ]
+    }
+  },
+  "examples": [{
+    "name": "morpheus",
+    "job": "leader"
+  }]
+}
